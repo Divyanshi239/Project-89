@@ -2,6 +2,7 @@ body{
     background-image:url(https://schoolsweek.co.uk/wp-content/uploads/2018/07/Math-Numbers-SM-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 .player_1
 {
@@ -65,4 +66,26 @@ body{
     border-width: 2px;
     font-size: 22px;
     font-weight: bold;
+}
+
+#output
+{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    border: 5px solid #AA4465;
+}
+.q
+{
+    color:teal;
+    font-weight: bolder;
+    font-size:28px;
+}
+#qwerty
+{
+    text-decoration-line:underline;
+    text-decoration-color:rgb(14, 14, 114);
+    text-decoration-thickness: 5px;
 }

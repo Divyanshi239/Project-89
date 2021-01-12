@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project 89</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="quiz_game_page.js"></script>
+</head>
+
+<body onload="New()" id="body">
+    <h4 id="player1_name"></h4>
+    <span id="player1_score"></span>
+    <br>
+    <h4 id="player2_name"></h4>
+    <span id="player2_score"></span>
+
+    <div class="container">
+        <center>
+            <h1 style="color: rgb(50, 66, 211);" id="qwerty">The Math Quiz</h1>
+            <h4 id="player_question"></h4>
+            <h4 id="player_answer"></h4>
+
+            <div id="output" class="col-lg-6">
+                <br>
+                <br>
+                <h5 id="question"></h5>
+                <br>
+                <input placeholder="Answer" id="word" class="form-control">
+                <br>
+                <button id="check_button" onclick="Check()" class="btn btn-success">Check Answer</button>
+            </div>
+
+            <h3 class="q">Number 1</h3>
+            <input placeholder="Number 1" class="form-control">
+            <h3 class="q">Number 2</h3>
+            <input placeholder="Number 2" class="form-control">
+            <br>
+            <br>
+            <button id="button_login" class="btn btn-info" onclick="Send()">Send</button>
+        </center>
+
+    </div>
+</body>
+
+</html>
