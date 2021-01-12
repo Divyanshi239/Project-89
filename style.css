@@ -1,0 +1,68 @@
+body{
+    background-image:url(https://schoolsweek.co.uk/wp-content/uploads/2018/07/Math-Numbers-SM-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.player_1
+{
+    animation: 1st 5s infinite;
+    background-color: rgb(209, 34, 186);
+    float: none;
+    height: 200px;
+    border-radius: 25px;
+    border-color:rgb(128, 14, 112);
+    border-width: 2px;
+}
+.player_2
+{
+    animation: 1st 5s infinite;
+    background-color: rgb(209, 34, 186);
+    float: none;
+    height: 200px;
+    border-radius: 25px;
+    border-color:rgb(128, 14, 112);
+    border-width: 2px;
+}
+
+#player2_name_input
+{
+    border-radius: 50px;
+}
+#player1_name_input
+{
+    border-radius: 50px;
+}
+
+.text
+{
+    text-shadow:darkslateblue 2px 2px;
+}
+
+.username
+{
+    text-shadow:rgb(111, 206, 214) 2px 2px;
+    color:  rgb(24, 133, 124) ;
+}
+
+/*Animation*/
+@keyframes animation-1st
+{
+    0%{background: rgb(20, 220, 220);}
+    25%{background:rgb(190, 18, 167);}
+    50%{background:rgb(20, 220, 220);}
+    75%{background:rgb(190, 18, 167);}
+    100%{background:rgb(20, 220, 220);}
+}
+
+#button_login
+{
+    color: rgb(126, 17, 126);
+    border-radius: 10px;
+    float: none;
+    width:500px;
+    height: 40px;
+    border-color:darkblue;
+    border-width: 2px;
+    font-size: 22px;
+    font-weight: bold;
+}
