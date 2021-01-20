@@ -89,3 +89,8 @@ body{
     text-decoration-color:rgb(14, 14, 114);
     text-decoration-thickness: 5px;
 }
+#body
+{
+    background: url("https://www.quickanddirtytips.com/sites/default/files/styles/article_main_image/public/images/18581/math-maths.jpg?itok=uwJrxVAm");
+    background-size: contain;
+}

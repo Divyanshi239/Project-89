@@ -14,7 +14,7 @@
     <script src="quiz_game_page.js"></script>
 </head>
 
-<body onload="New()" id="body">
+<body id="body">
     <h4 id="player1_name"></h4>
     <span id="player1_score"></span>
     <br>
@@ -27,20 +27,13 @@
             <h4 id="player_question"></h4>
             <h4 id="player_answer"></h4>
 
-            <div id="output" class="col-lg-6">
-                <br>
-                <br>
-                <h5 id="question"></h5>
-                <br>
-                <input placeholder="Answer" id="word" class="form-control">
-                <br>
-                <button id="check_button" onclick="Check()" class="btn btn-success">Check Answer</button>
+            <div id="output" class="col-lg-6">  
             </div>
 
             <h3 class="q">Number 1</h3>
-            <input placeholder="Number 1" class="form-control">
+            <input placeholder="Number 1" class="form-control" id="number1">
             <h3 class="q">Number 2</h3>
-            <input placeholder="Number 2" class="form-control">
+            <input placeholder="Number 2" class="form-control" id="number2">
             <br>
             <br>
             <button id="button_login" class="btn btn-info" onclick="Send()">Send</button>
